@@ -1,0 +1,27 @@
+{
+  "name": "asset",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "laravel-mix": "^2.1.11",
+    "sass-loader": "^7.0.3"
+  },
+  "dependencies": {
+    "ajv": "^6.5.1",
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.9.0",
+    "popper.js": "^1.14.3",
+    "vue": "^2.5.16",
+    "vue-resource": "^1.5.1"
+  }
+}
